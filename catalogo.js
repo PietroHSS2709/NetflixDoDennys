@@ -314,7 +314,7 @@ function mostrarConteudos(){
 
     if(
         tipoAtual === "todos" ||
-        tipoAtual === "serie"
+        tipoAtual === "Filmes recomendados"
     ){
 
 
@@ -326,7 +326,7 @@ function mostrarConteudos(){
 
                     dados:item,
 
-                    tipo:"serie"
+                    tipo:"Filmes recomendados"
 
                 });
 
@@ -570,11 +570,11 @@ document
 
                     }
 
-                    else if(tipoAtual === "serie"){
+                    else if(tipoAtual === "Filmes recomendados"){
 
 
                         tituloCatalogo.textContent =
-                            "Séries";
+                            "Filmes recomendados";
 
 
                     }
@@ -583,7 +583,7 @@ document
 
 
                         tituloCatalogo.textContent =
-                            "Filmes e Séries";
+                            "Filmes";
 
 
                     }
